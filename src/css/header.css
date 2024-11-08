@@ -75,7 +75,7 @@ input:placeholder {
   color: #808080;
 }
 
-button {
+.btn-form {
 display: inline-block;
 font-weight: 500;
 font-size: 16px;
@@ -84,8 +84,28 @@ letter-spacing: 0.04em;
 color: #fff;
 border-radius: 8px;
 padding: 8px 16px;
-min-width: 91px;
 background-color: #4e75ff;
+}
+
+.btn-add-more {
+display: none;
+margin: 0 auto 12px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+border-radius: 8px;
+padding: 8px 16px;
+background-color: #4e75ff;
+}
+
+.js-vissible {
+  display: inline-block;
+}
+
+.js-hidden {
+  display: none;
 }
 
 img {
@@ -104,7 +124,7 @@ img {
   justify-content: flex-start;
   align-items: center;
   gap: 24px 12px;
-  margin: 0 auto;
+  margin: 0 auto 36px;
   padding: 0 12px;
 }
 

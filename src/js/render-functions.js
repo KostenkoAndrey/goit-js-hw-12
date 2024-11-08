@@ -1,7 +1,5 @@
 `use strict`
 
-
-
 export function createMarkup(array) {
     return array.map(({ webformatURL: smallPic, largeImageURL: largePic, tags: alt, likes = 0, views = 0, comments = "", downloads = 0 }) => {
         return `
